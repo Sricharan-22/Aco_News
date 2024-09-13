@@ -120,7 +120,7 @@ SHOWCASE
     position: relative;
     color: white;
     height: 60vh;
-    background: url(../background.jpg) center center/cover;
+    background: url(background.jpg) center center/cover;
 }
 
 .showcase::before {
