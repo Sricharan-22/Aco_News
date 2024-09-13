@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive News Website</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <script src="https://kit.fontawesome.com/eaa4609b2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-globe fa-3x"></i>
+                <h1>Aconews</h1>
+            </div>
+
+            <div class="navigate">
+                <div class="options">
+                    <a href="./index.html" class="current">Home</a>
+
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/acowale/" target="_blank"><i
+                            class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://x.com/Acowale" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/acowalelimited/" target="_blank"><i
+                            class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.youtube.com/c/Acowale" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="showcase">
+        <div class="container">
+            <div class="text-content">
+                <p class="sports-category">Tech</p>
+                <h1></h1>
+                <p>
+                    Acowale Technologies has an employee rating of 4.7 out of 5 stars,
+                    which is 22% higher than the average rating for employers in the IT
+                    industry.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Top News Picks</h1>
+        <div id="news-grid" class="grid-container">
+            <!-- News articles will be inserted here dynamically -->
+        </div>
+
+        <!-- Pagination Controls -->
+        <div class="pagination">
+            <button id="prev" onclick="changePage('prev')">&lt;</button>
+            <span class="page-number active" data-page="1">1</span>
+            <span class="page-number" data-page="2">2</span>
+            <span class="page-number" data-page="3">3</span>
+            <span class="page-number" data-page="4">4</span>
+            <span class="page-number" data-page="5">5</span>
+            <button id="next" onclick="changePage('next')">&gt;</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <article>
+                    <div class="logo">
+                        <i class="fas fa-globe fa-2x"></i>
+                        <h2>Aco<span>news</span></h2>
+                    </div>
+                    <p>
+                        Loyalty , responsiblity has a another name its aco. We find truth
+                        and earn trust. Speak out with us we come to your home of
+                        information.grow trust.
+                    </p>
+                </article>
+
+                <article>
+                    <h4>EMAIL NEWSLETTER</h4>
+                    <p>For direct mail with exculsive news.</p>
+                    <input type="email" placeholder="Enter Email..." />
+                    <a href="#"> Subscribe</a>
+                </article>
+
+                <article>
+                    <h4>SITE LINKS</h4>
+                    <p>Help & Support</p>
+                    <p>Privacy Policy</p>
+                    <p>About Us</p>
+                    <p>Contact</p>
+                </article>
+
+                <article>
+                    <h4>JOIN OUR CLUB</h4>
+                    <p>More information will be shared , stay tuned</p>
+                    <a href="#">Join Now</a>
+                </article>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright &copy; 2024, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
